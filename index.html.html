@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2563eb">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <title>Miketech Digital Solutions - IT Services & Cyber Cafe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- System Header -->
+    <header class="system-header">
+        <div class="container">
+            <div class="system-nav">
+                <div class="logo-container">
+                    <div class="logo">
+                        <div class="logo-symbol">M</div>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Miketech Digital</h1>
+                        <span>Solutions & Cyber Cafe</span>
+                    </div>
+                </div>
+                
+                <nav>
+                    <ul class="nav-menu" id="menu">
+                        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#services"><i class="fas fa-laptop-code"></i> Services</a></li>
+                        <li><a href="#booking"><i class="fas fa-calendar-check"></i> Booking</a></li>
+                        <li><a href="#payment"><i class="fas fa-credit-card"></i> Payment</a></li>
+                        <li><a href="#location"><i class="fas fa-map-marker-alt"></i> Location</a></li>
+                        <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="user-actions">
+                    <button class="system-btn" id="loginBtn"><i class="fas fa-user"></i> Login</button>
+                    <button class="system-btn" id="registerBtn"><i class="fas fa-user-plus"></i> Register</button>
+                </div>
+                
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Dashboard Stats -->
+    <div class="container">
+        <div class="dashboard-stats">
+            <div class="stat-card">
+                <div class="stat-header">
+                    <h3 class="stat-title">Active Users</h3>
+                    <div class="stat-icon" style="background-color: rgba(59, 130, 246, 0.1); color: var(--primary-blue);">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="stat-value">248</div>
+                <div class="stat-desc">+12 this week</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-header">
+                    <h3 class="stat-title">Bookings</h3>
+                    <div class="stat-icon" style="background-color: rgba(236, 72, 153, 0.1); color: var(--accent-pink);">
+                        <i class="fas fa-calendar"></i>
+                    </div>
+                </div>
+                <div class="stat-value">42</div>
+                <div class="stat-desc">+5 today</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-header">
+                    <h3 class="stat-title">Services</h3>
+                    <div class="stat-icon" style="background-color: rgba(34, 197, 94, 0.1); color: #16a34a;">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                </div>
+                <div class="stat-value">12</div>
+                <div class="stat-desc">Available now</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-header">
+                    <h3 class="stat-title">Revenue</h3>
+                    <div class="stat-icon" style="background-color: rgba(245, 158, 11, 0.1); color: #d97706;">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                </div>
+                <div class="stat-value">KSh 58,240</div>
+                <div class="stat-desc">This month</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Your One-Stop IT Solutions Provider</h2>
+                <p>We provide comprehensive IT services and cyber cafe facilities at affordable prices. Located at Ngata Bridge along Nakuru-Eldoret Highway.</p>
+                <div>
+                    <a href="#booking" class="btn">Book Our Services Now</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>We offer a wide range of IT services to meet all your digital needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Cyber Cafe Services</h3>
+                        <p>Access high-speed internet, printing, scanning, and document processing services in a comfortable environment.</p>
+                        <div class="price">KSh 300/hour</div>
+                        <a href="#booking" class="btn">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Network Solutions</h3>
+                        <p>Professional network installation, configuration, and maintenance for businesses and homes.</p>
+                        <a href="#booking" class="btn">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Software Development</h3>
+                        <p>Custom software solutions tailored to your specific business requirements and goals.</p>
+                        <a href="#booking" class="btn">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Cybersecurity</h3>
+                        <p>Protect your systems and data with our comprehensive security solutions and consulting.</p>
+                        <a href="#booking" class="btn">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Data Recovery</h3>
+                        <p>Expert data recovery services for accidentally deleted or corrupted files and storage devices.</p>
+                        <a href="#booking" class="btn">Book Now</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>IT Consultation</h3>
+                        <p>Get professional advice on the best IT solutions and strategies for your business growth.</p>
+                        <a href="#booking" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking" id="booking">
+        <div class="container">
+            <div class="booking-container">
+                <div class="booking-content">
+                    <h2>Book Our Services Online</h2>
+                    <p>Register and book our services conveniently from anywhere. Our system allows you to select your preferred service, date, and time. You'll receive a confirmation email with all the details.</p>
+                    <p>After booking, you can make payment via M-Pesa to secure your appointment.</p>
+                </div>
+                <div class="booking-form">
+                    <h3 class="form-title">Service Booking Form</h3>
+                    <form id="bookingForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Select Service</label>
+                            <select id="service" name="service" required>
+                                <option value="">Choose a service</option>
+                                <option value="cyber-cafe">Cyber Cafe Services (KSh 300/hour)</option>
+                                <option value="network">Network Solutions</option>
+                                <option value="software">Software Development</option>
+                                <option value="security">Cybersecurity</option>
+                                <option value="data-recovery">Data Recovery</option>
+                                <option value="consultation">IT Consultation</option>
+                                <option value="other">Other IT Service</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+                            <input type="time" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Additional Notes</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Submit Booking Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Section -->
+    <section class="payment" id="payment">
+        <div class="container">
+            <div class="payment-container">
+                <div class="payment-content">
+                    <h2>Easy Payment Methods</h2>
+                    <p>We offer convenient payment options to make the process seamless for our customers. After booking your service, you can pay via M-Pesa to secure your appointment.</p>
+                    <p>Once payment is made, please send the confirmation message to our email or phone number for verification purposes.</p>
+                </div>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <i class="fab fa-mpesa"></i>
+                        <div>
+                            <h3>M-Pesa</h3>
+                            <p>Pay via M-Pesa to our business number: 07422778809</p>
+                        </div>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <div>
+                            <h3>Cash Payment</h3>
+                            <p>Pay in person at our cyber cafe location</p>
+                        </div>
+                    </div>
+                    <div class="payment-method">
+                        <i class="fas fa-bank"></i>
+                        <div>
+                            <h3>Bank Transfer</h3>
+                            <p>Transfer directly to our bank account</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Location</h2>
+                <p>Visit us at our convenient location along the Nakuru-Eldoret Highway</p>
+            </div>
+            <div class="location-container">
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.753050822847!2d35.45791161475397!3d-0.2852990998526889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18299f9b1395e4e7%3A0x4a3c2c2c2c2c2c2c!2sNgata%20Bridge%2C%20Nakuru-Eldoret%20Highway!5e0!3m2!1sen!2ske!4v1622020000000!5m2!1sen!2ske" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="address">
+                    <h3>Visit Our Cyber Cafe</h3>
+                    <div class="address-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Ngata Bridge, Nakuru-Eldoret Highway, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="address-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Saturday: 8:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="address-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Contact</h4>
+                            <p>Phone: 0113563082<br>Email: miketechdigitalsolutions@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-media" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Connect With Us</h2>
+                <p>Follow us on social media to stay updated with our latest offers and services</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Miketech Digital Solutions</h3>
+                    <p>Your trusted partner for comprehensive IT services and cyber cafe facilities. We're committed to providing quality services at affordable prices.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#services"><i class="fas fa-laptop-code"></i> Services</a></li>
+                        <li><a href="#booking"><i class="fas fa-calendar-check"></i> Booking</a></li>
+                        <li><a href="#payment"><i class="fas fa-credit-card"></i> Payment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Ngata Bridge, Nakuru-Eldoret Highway</li>
+                        <li><i class="fas fa-phone"></i> 0113563082</li>
+                        <li><i class="fas fa-envelope"></i> miketechdigitalsolutions@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter to receive updates on our latest offers and services.</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email Address" required>
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Miketech Digital Solutions. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Login to Your Account</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="loginEmail">Email Address</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Create an Account</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="regName">Full Name</label>
+                    <input type="text" id="regName" required>
+                </div>
+                <div class="form-group">
+                    <label for="regEmail">Email Address</label>
+                    <input type="email" id="regEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="regPhone">Phone Number</label>
+                    <input type="tel" id="regPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="regPassword">Password</label>
+                    <input type="password" id="regPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="regConfirmPassword">Confirm Password</label>
+                    <input type="password" id="regConfirmPassword" required>
+                </div>
+                <button type="submit" class="btn">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Install Prompt -->
+    <div class="install-prompt" id="installPrompt">
+        <p>Install Miketech Digital App for better experience?</p>
+        <div class="install-prompt-buttons">
+            <button class="install-prompt-btn install-prompt-accept" id="installAccept">Install</button>
+            <button class="install-prompt-btn install-prompt-dismiss" id="installDismiss">Not Now</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
